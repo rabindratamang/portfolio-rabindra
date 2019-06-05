@@ -1,0 +1,22 @@
+{
+  "name": "rabindratamang.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabindratamang/rabindratamang.github.io.git"
+  },
+  "author": "Rabindra Tamang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabindratamang/rabindratamang.github.io/issues"
+  },
+  "homepage": "https://github.com/rabindratamang/rabindratamang.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
