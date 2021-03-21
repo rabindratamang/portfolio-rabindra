@@ -105,3 +105,25 @@ main {
 
 .profile-text {
   float: left; }
+
+
+@media only screen and (max-width: 768px) {
+  
+.profile {
+  margin-top: 20vh; 
+  margin: auto;
+}
+
+.profile-img img {
+  display: block;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+  /* For mobile phones: */
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 3rem;
+  }
+}
